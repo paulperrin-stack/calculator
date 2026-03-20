@@ -72,10 +72,5 @@ body {
 }
 
 #button-wrap > button:hover {
-    box-shadow: inst 0px 0px 15px 0px rgba(0, 0, 0.3);
-}
-
-/*
-#button-wrap > button#result {
-
+    box-shadow: inset 0px 0px 15px 0px rgba(0, 0, 0.3);
 }

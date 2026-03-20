@@ -151,7 +151,7 @@ buttons.forEach(button => {
         const id = button.id;
         const text = button.textContent;
 
-        if (button.classList.contains('number') || id === 'number') {
+        if (button.classList.contains('number')) {
             appendNumber(text);
         } else if (id === 'dot') {
             appendDecimal();
